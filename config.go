@@ -40,8 +40,8 @@ import (
 //	processors:
 //	  - csv_enrich:
 //	      file: /etc/filebeat/enrich/users.csv
-//	      lookup_field: si_user
-//	      key_field: parsed_message.data.si_user
+//	      lookup_field: user
+//	      key_field: parsed_message.data.user
 //	      fields: ["Department", "vlan_address", "Role"]
 //	      target_prefix: user
 //	      ignore_case: true
